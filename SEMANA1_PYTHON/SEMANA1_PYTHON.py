@@ -32,3 +32,13 @@ def ejer3():
      print("redondeado : ",cubo)
      print("al cubo: ",cubo)
      print ("raíz cubica : ",cubica)
+
+
+     def ejer5():
+         num=input("ingrese un número : ")
+
+         entero=int(num)
+         decim=float(num)
+
+         print("Resto : ", (entero%2))
+         print("Decimal : ", (decim/3))
