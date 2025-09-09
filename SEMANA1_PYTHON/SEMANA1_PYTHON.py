@@ -1,3 +1,6 @@
+import math
+
+
 def ejer1():
     nombre = input("Ingrese su nombre: ")
     carrera = input("Ingrese su carrera: ")
@@ -15,3 +18,17 @@ def ejer3():
  print("Resta" , (num1-num2))
  print("Multiplicación" , ( num1*num2))
  print("División" , (num1/num2))
+
+
+ import match #importado librería math
+
+ def ejer4():
+     num =float(input("ingrese número decimal: "))
+     raiz= math.sqrt(num)
+     redo= round(num,2)
+     cubo = math.pow(num,3)
+     cubica = num ** (1/3)
+     print("raiz cuadrada : ",raiz)
+     print("redondeado : ",cubo)
+     print("al cubo: ",cubo)
+     print ("raíz cubica : ",cubica)
